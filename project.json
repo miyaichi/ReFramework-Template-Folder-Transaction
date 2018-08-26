@@ -1,0 +1,14 @@
+{
+  "name": "ReFramework-Template-Folder-Transaction",
+  "description": "Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6812.24806",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
