@@ -2,13 +2,25 @@
   "name": "ReFramework-Template-Folder-Transaction",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
-  "dependencies": {},
-  "excludedData": [
-    "Private:*",
-    "*password*"
-  ],
-  "toolVersion": "18.2",
-  "projectVersion": "1.0.6812.24806",
-  "packOptions": {},
-  "runtimeOptions": {}
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[18.3.6864.20582]",
+    "UiPath.System.Activities": "[18.3.6864.20561]",
+    "UiPath.Excel.Activities": "[2.4.6863.30657]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.3.1.0",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
 }
